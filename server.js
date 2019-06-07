@@ -14,3 +14,7 @@ app.listen(3000,()=>{
 app.get('/tablero',(req, res)=>{
     res.render('tableroPrincipal.html');
 });
+
+app.get('/bootstrap',(req,res)=>{
+    res.render('bootstrap.html');
+});
